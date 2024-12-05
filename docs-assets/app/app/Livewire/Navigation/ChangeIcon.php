@@ -7,7 +7,7 @@ use Filament\Navigation\NavigationItem;
 
 class ChangeIcon extends Page
 {
-    protected static string $view = 'livewire.navigation.active-icon';
+    protected static string $view = 'livewire.navigation.change-icon';
 
     public function mount()
     {

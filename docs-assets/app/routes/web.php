@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\Navigation\SortItems;
 use App\Livewire\Navigation\ActiveIcon;
 use App\Livewire\ActionsDemo;
 use App\Livewire\Forms\FieldsDemo;
@@ -35,3 +36,4 @@ Route::get('/tables', TablesDemo::class);
 Route::get('/topbar', Topbar::class);
 Route::get('/navigation/active-icon', ActiveIcon::class);
 Route::get('/navigation/change-icon', ChangeIcon::class);
+Route::get('/navigation/sort-items', SortItems::class);
