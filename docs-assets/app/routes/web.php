@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\Navigation\ActiveIcon;
 use App\Livewire\ActionsDemo;
 use App\Livewire\Forms\FieldsDemo;
 use App\Livewire\Forms\GettingStartedDemo;
@@ -31,3 +32,4 @@ Route::get('/infolists/layout', InfolistsLayoutDemo::class);
 Route::get('/notifications', NotificationsDemo::class);
 Route::get('/tables', TablesDemo::class);
 Route::get('/topbar', Topbar::class);
+Route::get('/navigation/active-icon', ActiveIcon::class);
