@@ -3,6 +3,7 @@
 use App\Livewire\Navigation\ActiveIcon;
 use App\Livewire\ActionsDemo;
 use App\Livewire\Forms\FieldsDemo;
+use App\Livewire\Navigation\ChangeIcon;
 use App\Livewire\Forms\GettingStartedDemo;
 use App\Livewire\Forms\LayoutDemo as FormsLayoutDemo;
 use App\Livewire\Infolists\EntriesDemo;
@@ -33,3 +34,4 @@ Route::get('/notifications', NotificationsDemo::class);
 Route::get('/tables', TablesDemo::class);
 Route::get('/topbar', Topbar::class);
 Route::get('/navigation/active-icon', ActiveIcon::class);
+Route::get('/navigation/change-icon', ChangeIcon::class);
